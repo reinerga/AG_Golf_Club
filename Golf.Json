@@ -1,0 +1,14 @@
+[
+    {
+        "CourseKey": "TopOfTheWorld",
+        "Name": "Top Of The World",
+        "DownloadURL": "https://gspro-core-downloads.s3.us-east-2.amazonaws.com/top_of_the_world_gsp.zip",
+        "RemoteVersion": "v1.1",
+        "ID": 0,
+        "Status": 0,
+        "LocalVersion": null,
+        "CourseFolder": "top_of_the_world_gsp",
+        "CourseLocation": "Unknown",
+        "CourseDesigner": "Sting"
+    }
+]
