@@ -4,3 +4,4 @@ aJOUT .eleventy.js
 Packafge json
 INDEX.NJK /crit
 lidarMD
+courses.njk
