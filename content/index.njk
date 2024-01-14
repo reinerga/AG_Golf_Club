@@ -6,32 +6,6 @@ permalink: "/"
 
 <h1 class="text-4xl font-bold tracking-tight">GSPro Courses</h1>
 
-<!<article class="my-3">
-    <h2 class="text-3xl font-bold tracking-tight">Courses</h2>
-    <ul class="grid grid-cols-1 md:grid-cols-3 gap-4 list-none px-0 mx-0">
-    {%- for course in collections.courses -%}
-        <li>
-            <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 min-h-full">
-                <a href="{{ course.url | url }}">
-                    <img class="rounded-t-lg m-0" src="{{ (course.url + course.data.image) | url }}" alt="" />
-                </a>
-                <div class="p-4">
-                    <a href="{{ course.url | url }}" class="no-underline">
-                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white no-underline">{{ course.data.title }} {% if 'beta' in course.data.tags %}(Beta){% endif %}</h5>
-                        <h6 class="mb-2 text-xl tracking-tight text-gray-700 dark:text-white no-underline">{{ course.data.location }}</h5>
-                    </a>
-                    <div class="mb-3 font-normal text-gray-700 dark:text-gray-400">Version: {{ course.data.gspro_version }}</div>
-
-                    {% if course.data.info %}<p class="mb-3 font-normal text-gray-700 dark:text-gray-400">{{ course.data.info }}</p>{% endif %}
-                </div>
-            </div>
-        </li>
-    {%- endfor -%}
-    </ul>
-    <blockquote>
-        Beta courses are available through <a href="{{ '/courses.json' | url }}" target="_blank">course list</a>.  Add this to your GSPro course server list for regular updates.
-    </blockquote>
-</article>>
 
 <article class="my-3">
     <h2 class="text-3xl font-bold tracking-tight">Resources</h2>
