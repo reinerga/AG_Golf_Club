@@ -6,3 +6,5 @@ INDEX.NJK /crit
 lidarMD
 courses.njk
 src stimulus
+Controllers
+Filters json.js
