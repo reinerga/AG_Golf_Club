@@ -5,3 +5,4 @@ Packafge json
 INDEX.NJK /crit
 lidarMD
 courses.njk
+src stimulus
